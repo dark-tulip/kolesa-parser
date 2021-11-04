@@ -2,8 +2,8 @@ import requests
 from time import sleep
 
 
-bot_token = "1959435613:AAErAtPTaOsVqHf1RSTEw5nI9CTw0KJdKYU"
-channel_id = "@almaty_colesa_bot"
+bot_token = "BOT_TOKEN"
+channel_id = "@channel_name"
 
 
 def telegram_bot_send_text(bot_message):
