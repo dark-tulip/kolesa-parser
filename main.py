@@ -10,8 +10,8 @@ browser = webdriver.Chrome()
 browser.implicitly_wait(5)
 
 # Pages to parse range
-start_page = 150
-end_page = 158
+start_page = 155
+end_page = 160
 
 # Все car-dictionary элементы на запарсенных страницах (1 страница - 20 машин)
 all_cars_lst_dic = []
@@ -119,7 +119,7 @@ def write_cars_on_page():
         print("ERROR: NoSuchElementException")
 
 
-def submit_new_cars(views=5):
+def submit_new_cars(views=50):
     """
         Функция фильтрует по просмотрам views
         Добавляет car-dictionary в список sorted_by_views_dic
